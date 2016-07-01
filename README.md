@@ -20,7 +20,7 @@ Example Usage: ruby pingr.rb < -f /path/to/file | -r 192.168.1.0/24 | -i 192.168
     -h, --help                       Display this screen
 ```
 
-[!Screenshot](http://cl.ly/3X1h240M3C0c/Screen%20Shot%202016-06-30%20at%206.15.35%20PM.png)
+![Screenshot](http://cl.ly/3X1h240M3C0c/Screen%20Shot%202016-06-30%20at%206.15.35%20PM.png)
 
 ## TODO
 - Include more options to gather info about hosts (netbios, more port scanning, etc.)
