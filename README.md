@@ -1,7 +1,7 @@
 # pingr
 
 ## Overview
-pingr is a utility to identify hosts on your internal or external network. It has the ability to ping hosts in a given range (CIDR notation) and report those which reply. Additionally, for hosts that are up, a quick check is made to see if port 80 is open. This tool was made in an effort to circumvent issues with nmap reporting incorrect results (all hosts in a block reporting as "up") due to local VMWare adapters, and to make it easier to find CTF boxes on the local net. It's very simple and prone to false negatives (if hosts are configured to not respond to ICMP packets), but was made for a very circumstantial use-case. Regardless, it's multi-threaded and pretty quick, and so far reliable. The same results could be obtained with any number of tools or methods, but building stuff in ruby is fun. :)
+`pingr` is a utility to identify hosts on your internal or external network. It has the ability to ping hosts in a given range (CIDR notation) and report those which reply. Additionally, for hosts that are up, a quick check is made to see if port 80 is open. This tool was made in an effort to circumvent issues with nmap reporting incorrect results (all hosts in a block reporting as "up") due to local VMWare adapters, and to make it easier to find CTF boxes on the local net. It's very simple and prone to false negatives (if hosts are configured to not respond to ICMP packets), but was made for a very circumstantial use-case. Regardless, it's multi-threaded and pretty quick, and so far reliable. The same results could be obtained with any number of tools or methods, but building stuff in ruby is fun. :)
 
 ## Requirements
 Currently only compatible with Unix-based systems.
